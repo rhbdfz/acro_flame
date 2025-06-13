@@ -1,0 +1,268 @@
+{
+  "cards": [
+    {
+      "id": 1,
+      "name": "Каменщик",
+      "description": "+1 стена",
+      "type": "brick",
+      "cost": 1,
+      "rarity": "common",
+      "imagePath": "assets/images/cards/brick/mason.png",
+      "effects": [
+        {
+          "type": "wall",
+          "value": 1,
+          "target": "self"
+        }
+      ],
+      "canPlayAgain": false,
+      "flavorText": "Каждый камень важен в строительстве крепости."
+    },
+    {
+      "id": 2,
+      "name": "Рабочий",
+      "description": "+2 стена, +1 каменоломня",
+      "type": "brick",
+      "cost": 2,
+      "rarity": "common",
+      "imagePath": "assets/images/cards/brick/worker.png",
+      "effects": [
+        {
+          "type": "wall",
+          "value": 2,
+          "target": "self"
+        },
+        {
+          "type": "quarry",
+          "value": 1,
+          "target": "self"
+        }
+      ],
+      "canPlayAgain": false
+    },
+    {
+      "id": 3,
+      "name": "Архитектор",
+      "description": "+3 башня",
+      "type": "brick",
+      "cost": 3,
+      "rarity": "common",
+      "imagePath": "assets/images/cards/brick/architect.png",
+      "effects": [
+        {
+          "type": "tower",
+          "value": 3,
+          "target": "self"
+        }
+      ],
+      "canPlayAgain": false
+    },
+    {
+      "id": 4,
+      "name": "Склад",
+      "description": "+4 стена, +2 кирпичи",
+      "type": "brick",
+      "cost": 4,
+      "rarity": "uncommon",
+      "imagePath": "assets/images/cards/brick/warehouse.png",
+      "effects": [
+        {
+          "type": "wall",
+          "value": 4,
+          "target": "self"
+        },
+        {
+          "type": "bricks",
+          "value": 2,
+          "target": "self"
+        }
+      ],
+      "canPlayAgain": false
+    },
+    {
+      "id": 5,
+      "name": "Крепость",
+      "description": "+5 башня, +3 стена",
+      "type": "brick",
+      "cost": 8,
+      "rarity": "rare",
+      "imagePath": "assets/images/cards/brick/fortress.png",
+      "effects": [
+        {
+          "type": "tower",
+          "value": 5,
+          "target": "self"
+        },
+        {
+          "type": "wall",
+          "value": 3,
+          "target": "self"
+        }
+      ],
+      "canPlayAgain": false
+    },
+    {
+      "id": 101,
+      "name": "Ученик мага",
+      "description": "+1 башня, +1 магия",
+      "type": "gem",
+      "cost": 1,
+      "rarity": "common",
+      "imagePath": "assets/images/cards/gem/apprentice.png",
+      "effects": [
+        {
+          "type": "tower",
+          "value": 1,
+          "target": "self"
+        },
+        {
+          "type": "magic",
+          "value": 1,
+          "target": "self"
+        }
+      ],
+      "canPlayAgain": false
+    },
+    {
+      "id": 102,
+      "name": "Кристалл",
+      "description": "+3 башня",
+      "type": "gem",
+      "cost": 2,
+      "rarity": "common",
+      "imagePath": "assets/images/cards/gem/crystal.png",
+      "effects": [
+        {
+          "type": "tower",
+          "value": 3,
+          "target": "self"
+        }
+      ],
+      "canPlayAgain": false
+    },
+    {
+      "id": 103,
+      "name": "Молния",
+      "description": "5 урона вражеской стене",
+      "type": "gem",
+      "cost": 3,
+      "rarity": "common",
+      "imagePath": "assets/images/cards/gem/lightning.png",
+      "effects": [
+        {
+          "type": "damage",
+          "value": 5,
+          "target": "enemy"
+        }
+      ],
+      "canPlayAgain": false
+    },
+    {
+      "id": 104,
+      "name": "Огненный шар",
+      "description": "8 урона врагу",
+      "type": "gem",
+      "cost": 7,
+      "rarity": "rare",
+      "imagePath": "assets/images/cards/gem/fireball.png",
+      "effects": [
+        {
+          "type": "damage",
+          "value": 8,
+          "target": "enemy"
+        }
+      ],
+      "canPlayAgain": false
+    },
+    {
+      "id": 201,
+      "name": "Лучник",
+      "description": "2 урона",
+      "type": "recruit",
+      "cost": 1,
+      "rarity": "common",
+      "imagePath": "assets/images/cards/recruit/archer.png",
+      "effects": [
+        {
+          "type": "damage",
+          "value": 2,
+          "target": "enemy"
+        }
+      ],
+      "canPlayAgain": false
+    },
+    {
+      "id": 202,
+      "name": "Солдат",
+      "description": "3 урона",
+      "type": "recruit",
+      "cost": 2,
+      "rarity": "common",
+      "imagePath": "assets/images/cards/recruit/soldier.png",
+      "effects": [
+        {
+          "type": "damage",
+          "value": 3,
+          "target": "enemy"
+        }
+      ],
+      "canPlayAgain": false
+    },
+    {
+      "id": 203,
+      "name": "Рыцарь",
+      "description": "4 урона, +2 стена",
+      "type": "recruit",
+      "cost": 4,
+      "rarity": "uncommon",
+      "imagePath": "assets/images/cards/recruit/knight.png",
+      "effects": [
+        {
+          "type": "damage",
+          "value": 4,
+          "target": "enemy"
+        },
+        {
+          "type": "wall",
+          "value": 2,
+          "target": "self"
+        }
+      ],
+      "canPlayAgain": false
+    },
+    {
+      "id": 204,
+      "name": "Дракон",
+      "description": "12 урона",
+      "type": "recruit",
+      "cost": 15,
+      "rarity": "rare",
+      "imagePath": "assets/images/cards/recruit/dragon.png",
+      "effects": [
+        {
+          "type": "damage",
+          "value": 12,
+          "target": "enemy"
+        }
+      ],
+      "canPlayAgain": false
+    },
+    {
+      "id": 205,
+      "name": "Эльф",
+      "description": "1 урон, играть снова",
+      "type": "recruit",
+      "cost": 2,
+      "rarity": "uncommon",
+      "imagePath": "assets/images/cards/recruit/elf.png",
+      "effects": [
+        {
+          "type": "damage",
+          "value": 1,
+          "target": "enemy"
+        }
+      ],
+      "canPlayAgain": true
+    }
+  ]
+}

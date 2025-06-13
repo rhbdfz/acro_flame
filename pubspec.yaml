@@ -1,0 +1,44 @@
+name: arcomage_clone
+description: A simple card battler game clone of Arcomage using Flame engine
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.0 <4.0.0'
+  flutter: ">=3.16.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  provider: ^6.1.5
+  json_annotation: ^4.9.0
+
+  # Flame engine для игр
+  flame: ^1.19.0
+
+  # Аудио для звуковых эффектов
+  flame_audio: ^2.1.1
+
+  # Иконки
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/audio/
+    - assets/cards/
+
+  fonts:
+    - family: PixelFont
+      fonts:
+        - asset: assets/fonts/pixel_font.ttf
